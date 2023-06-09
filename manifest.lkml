@@ -4,16 +4,16 @@ constant: CONNECTION_NAME {
 }
 
 constant: GCP_PROJECT {
-  value: "GCP Project Name"
+  value: "prod-cortex-redsalud"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "Reporting Dataset Name"
+  value: "prod_cortex_reporting"
   export: override_required
 }
 
 constant: CLIENT {
-  value: "Client ID"
+  value: "300"
   export: override_required
 }
